@@ -1,7 +1,7 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 Name:          parboiled
 Version:       1.0.2
-Release:       6.0%{?dist}
+Release:       6.1%{?dist}
 Summary:       Java/Scala library providing parsing of input text based on PEGs
 License:       ASL 2.0
 URL:           http://parboiled.org/
