@@ -4,7 +4,7 @@ Version:       1.0.2
 Release:       6.1%{?dist}
 Summary:       Java/Scala library providing parsing of input text based on PEGs
 License:       ASL 2.0
-URL:           http://parboiled.org/
+URL:           https://parboiled.org/
 Source0:       https://github.com/sirthias/parboiled/archive/%{version}.tar.gz
 # for build see https://github.com/sirthias/parboiled/wiki/Building-parboiled
 Source1:       http://repo1.maven.org/maven2/org/%{name}/%{name}-core/%{version}/%{name}-core-%{version}.pom
