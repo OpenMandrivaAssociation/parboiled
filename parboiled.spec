@@ -12,6 +12,7 @@ Source2:       http://repo1.maven.org/maven2/org/%{name}/%{name}-java/%{version}
 # customized aggregator pom
 Source3:       %{name}-%{version}-pom.xml
 
+BuildRequires:	make
 BuildRequires: java-devel
 
 BuildRequires: mvn(asm:asm)
